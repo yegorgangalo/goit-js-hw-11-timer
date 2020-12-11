@@ -36,10 +36,10 @@ const CountdownTimer = {
         this.insertTimeinRefs(time);
     },
     insertTimeinRefs(timeObj) {
-        refs.spanDays.innerHTML = timeObj.days;
-        refs.spanHours.innerHTML = timeObj.hours;
-        refs.spanMinutes.innerHTML = timeObj.mins;
-        refs.spanSeconds.innerHTML = timeObj.secs;
+        refs.spanDays.textContent = timeObj.days;
+        refs.spanHours.textContent = timeObj.hours;
+        refs.spanMinutes.textContent = timeObj.mins;
+        refs.spanSeconds.textContent = timeObj.secs;
     },
     /* ---------------------------- */
     getTimeComponents(time) {
