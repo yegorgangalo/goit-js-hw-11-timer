@@ -6,7 +6,7 @@ const refs = {
 }
 
 const CountdownTimer = {
-    targetDate: new Date('Jan 01, 2021'),
+    targetDate: new Date('Jan 01, 2022'),
     // targetDate: new Date(2020, 11, 11, 18, 18, 5),
     isActive: false,
     timerId: null,
